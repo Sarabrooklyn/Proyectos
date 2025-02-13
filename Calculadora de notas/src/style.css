@@ -1,0 +1,102 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  min-width: 700px;
+  min-height: 100vh;
+  display: flexbox;
+  justify-items: center;
+  background-color:aliceblue;
+ 
+
+ 
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: black;
+    background-color: #ffffff;
+  }
+ 
+}
+
+.titulo {
+  width: 500px;
+  height: 100px;
+  border: 1px solid black;
+  color: white;
+  background-color: rgb(248, 194, 46);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+
+}
+
+.divInput {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.input{
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.boton {
+  width: 100px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.boton:hover {
+  color: blue;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.resultado {
+ width: 300px;
+ margin: 20px;
+ font-size: 20px;
+ display: flex;
+ text-align: left;
+
+}
+
+.mensaje {
+  width: 250px;
+  height: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+
+}
+
+.notas {
+  width: 100px;
+  height: 200px;
+  font-size: 24px;
+}
